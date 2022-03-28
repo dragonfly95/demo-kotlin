@@ -23,3 +23,8 @@ class UserInfo (
     val firstname: String,
     val lastname: String
         )
+//
+//interface UserInfo2 {
+//    fun getFirstname(): String
+//    fun getLastname(): String
+//}

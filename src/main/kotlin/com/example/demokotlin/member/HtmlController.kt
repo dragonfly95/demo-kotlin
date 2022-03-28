@@ -28,7 +28,7 @@ class HtmlController (
 
         userRepository.save(user);
 
-        val findByLogin = userRepository.findAllProjectedBy(UserInfo::class.java)
+        val findByLogin = userRepository.findAllProjectedBy(UserInfo3::class.java)
         for (userInfo in findByLogin) {
             println("userRepository = ${userInfo.firstname}")
             println("userRepository = ${userInfo.lastname}")
